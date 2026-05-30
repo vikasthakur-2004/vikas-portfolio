@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white">
-      <h1 className="text-5xl font-bold">
-        Vikassingh Thakur
-      </h1>
+    <div className="bg-black text-white min-h-screen">
+      <Navbar />
+      <Hero />
     </div>
   );
 }
