@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <section id="hero" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
       
       <p className="text-gray-400 mb-4">
         Full Stack Developer & AI Integration Enthusiast
