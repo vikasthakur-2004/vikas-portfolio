@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center px-6 max-w-5xl mx-auto"
+      className="py-24 px-6 max-w-5xl mx-auto"
     >
       <h2 className="text-4xl font-bold mb-8">
         About Me
