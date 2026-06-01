@@ -49,6 +49,16 @@ function Navbar() {
               Projects
             </Link>
           </li>
+          <li>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:text-white"
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
