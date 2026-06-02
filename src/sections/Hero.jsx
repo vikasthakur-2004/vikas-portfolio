@@ -1,16 +1,22 @@
+import profile from "../assets/profile.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      
+    <section
+      id="hero"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24"
+    >
+      <img
+        src={profile}
+        alt="Vikas Thakur"
+        className="w-40 h-40 rounded-full mx-auto mb-8 border-4 border-gray-700 object-cover object-top"
+      />
       <p className="text-gray-400 mb-4">
         Full Stack Developer & AI Integration Enthusiast
       </p>
 
-      <h1 className="text-5xl md:text-7xl font-bold mb-6">
-        Vikassingh Thakur
-      </h1>
+      <h1 className="text-5xl md:text-7xl font-bold mb-6">Vikassingh Thakur</h1>
 
       <div className="text-xl md:text-2xl text-gray-300 mb-8">
         <TypeAnimation
@@ -29,9 +35,9 @@ function Hero() {
       </div>
 
       <p className="max-w-2xl text-gray-400 mb-10">
-        BSc Computer Science Final Year student focused on
-        Full Stack Web Development, AI Integration and building
-        scalable digital products for the future.
+        BSc Computer Science Final Year student focused on Full Stack Web
+        Development, AI Integration and building scalable digital products for
+        the future.
       </p>
 
       <div className="flex gap-4">
