@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 function Projects() {
   const projects = [
     {
@@ -40,14 +41,18 @@ function Projects() {
 
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project) => (
-          <div
-            key={project.title}
-            className="border border-gray-800 rounded-2xl p-6
-            hover:border-purple-500
-            hover:-translate-y-2
-            hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]
-            transition-all duration-300"
-          >
+  <motion.div
+    key={project.title}
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.5 }}
+    className="border border-gray-800 rounded-2xl p-6
+    hover:border-purple-500
+    hover:-translate-y-2
+    hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]
+    transition-all duration-300"
+  >
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-2xl font-semibold">
                 {project.title}
@@ -82,7 +87,7 @@ function Projects() {
                 Private
               </button>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

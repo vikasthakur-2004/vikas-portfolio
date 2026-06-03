@@ -1,12 +1,16 @@
+import { motion } from "framer-motion";
 import profile from "../assets/profile.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24"
-    >
+    <motion.section
+  id="hero"
+  className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-28"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+>
       <img
         src={profile}
         alt="Vikas Thakur"
@@ -57,7 +61,7 @@ function Hero() {
           LinkedIn
         </a>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
