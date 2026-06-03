@@ -1,16 +1,124 @@
-# React + Vite
+# 🚀 Vikassingh Thakur Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated developer portfolio built with React, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## 🌟 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio showcases skills, projects, experience, and career goals as a Full Stack Developer focused on AI Integration and modern web technologies.
 
-## React Compiler
+Designed with a premium dark theme, smooth animations, responsive layouts, and a clean user experience inspired by modern product-focused websites.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Responsive Design
+* Premium Dark UI
+* Framer Motion Animations
+* Smooth Scrolling Navigation
+* Mobile Hamburger Menu
+* Download Resume Feature
+* Contact Section
+* SEO Optimized
+* Open Graph Meta Tags
+* Project Showcase Section
+* GitHub & LinkedIn Integration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Framer Motion
+* React Scroll
+* React Icons
+
+### Development Tools
+
+* Git
+* GitHub
+* Vite
+* VS Code
+
+## 📂 Project Structure
+
+```bash
+src
+├── components
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+│
+├── sections
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+│
+├── assets
+│   ├── profile.png
+│   └── vikas-resume.pdf
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 🚧 Featured Projects
+
+### DevQuest
+
+Gamified learning platform with XP, levels, quests, achievements, interview preparation, and AI-powered guidance.
+
+**Status:** In Development
+
+### InterviewPilot AI
+
+AI-powered mock interview platform providing feedback, scoring, and personalized improvement suggestions.
+
+**Status:** Planned
+
+### FounderLens AI
+
+AI startup validation platform helping founders evaluate ideas, competition, and market opportunities.
+
+**Status:** Planned
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vikasthakur-2004/vikas-portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 🔗 Live Demo
+
+Coming Soon
+
+## 👨‍💻 Author
+
+**Vikassingh Thakur**
+
+* GitHub: https://github.com/vikasthakur-2004
+* LinkedIn: https://www.linkedin.com/in/vikassingh-thakur
+
+---
+
+Built with ❤️ using React, Tailwind CSS, and Framer Motion.
