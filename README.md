@@ -110,7 +110,7 @@ npm run build
 
 ## 🔗 Live Demo
 
-Coming Soon
+https://vikas-portfolio-amber.vercel.app/
 
 ## 👨‍💻 Author
 
