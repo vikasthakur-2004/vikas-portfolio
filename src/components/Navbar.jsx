@@ -15,6 +15,8 @@ function Navbar() {
               to="hero"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-white"
               className="cursor-pointer hover:text-white"
             >
               Home
@@ -26,6 +28,8 @@ function Navbar() {
               to="about"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-white"
               className="cursor-pointer hover:text-white"
             >
               About
@@ -37,6 +41,8 @@ function Navbar() {
               to="skills"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-white"
               className="cursor-pointer hover:text-white"
             >
               Skills
@@ -47,6 +53,8 @@ function Navbar() {
               to="projects"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-white"
               className="cursor-pointer hover:text-white"
             >
               Projects
@@ -57,6 +65,8 @@ function Navbar() {
               to="contact"
               smooth={true}
               duration={500}
+              spy={true}
+              activeClass="text-white"
               className="cursor-pointer hover:text-white"
             >
               Contact
@@ -80,6 +90,8 @@ function Navbar() {
                   to="hero"
                   smooth={true}
                   duration={500}
+                  spy={true}
+              activeClass="text-white"
                   onClick={() => setMenuOpen(false)}
                 >
                   Home
@@ -91,6 +103,8 @@ function Navbar() {
                   to="about"
                   smooth={true}
                   duration={500}
+                  spy={true}
+              activeClass="text-white"
                   onClick={() => setMenuOpen(false)}
                 >
                   About
@@ -102,6 +116,8 @@ function Navbar() {
                   to="skills"
                   smooth={true}
                   duration={500}
+                  spy={true}
+              activeClass="text-white"
                   onClick={() => setMenuOpen(false)}
                 >
                   Skills
@@ -113,6 +129,8 @@ function Navbar() {
                   to="projects"
                   smooth={true}
                   duration={500}
+                  spy={true}
+              activeClass="text-white"
                   onClick={() => setMenuOpen(false)}
                 >
                   Projects
@@ -124,6 +142,8 @@ function Navbar() {
                   to="contact"
                   smooth={true}
                   duration={500}
+                  spy={true}
+              activeClass="text-white"
                   onClick={() => setMenuOpen(false)}
                 >
                   Contact
